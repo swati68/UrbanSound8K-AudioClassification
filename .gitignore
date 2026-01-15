@@ -1,0 +1,25 @@
+# Ignore everything by default
+*
+
+# Allow notebook
+!UrbanSoundClassification.ipynb
+
+# Allow dataset folder
+urban_sound/
+urban_sound/**
+
+# Allow git files
+!.gitignore
+!README.md
+
+# Explicit ignores (safety)
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+*.pyc
+.env
+venv/
+.venv/
+outputs/
+models/
+runs/
